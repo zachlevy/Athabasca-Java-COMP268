@@ -6,6 +6,7 @@
  * @version 20140528
  */
 import java.util.Scanner;
+import java.util.Arrays;
 public class BaseballScore
 {
     // instance variables - replace the example below with your own
@@ -49,8 +50,6 @@ public class BaseballScore
     
     // checks to see who won, if anyone
     public String isWinner () {
-        System.out.println(teamAInnings.length);
-        System.out.println(teamBInnings.length);
         // validation
         if (teamAInnings.length == 9 && teamBInnings.length == 9) {
             // return result of the game
