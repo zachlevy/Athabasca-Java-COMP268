@@ -22,13 +22,12 @@ public class answers
         // question 13
         /*
         BaseballScore worldSeriesFinal = new BaseballScore();
-        worldSeriesFinal.setScores();
         System.out.println("And the World Series result is... " + worldSeriesFinal.isWinner());
         */
         
         // question 23
         TimeCalculator timeCalc = new TimeCalculator();
-        timeCalc.setDays();
+        //timeCalc.setDays();
         timeCalc.convertDays();
     }
 }
