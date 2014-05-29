@@ -45,6 +45,7 @@ public class BaseballScore
      */
     public BaseballScore()
     {
+        setScores();
         // initialise instance variables
     }
 
