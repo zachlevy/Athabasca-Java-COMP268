@@ -11,6 +11,7 @@ public class answers
         System.out.println("Starting test\n");
         
         // question 12
+        /*
         // tests if the input string is a palindrome, shows a success
         Palindrome successPalindrome = new Palindrome("racecar");
         successPalindrome.isPalindrome();
@@ -18,7 +19,8 @@ public class answers
         // tests if the input string is a palindrome, shows a failure
         Palindrome failurePalindrome = new Palindrome("apples");
         failurePalindrome.isPalindrome();
-
+        */
+        
         // question 13
         /*
         BaseballScore worldSeriesFinal = new BaseballScore();
@@ -26,8 +28,12 @@ public class answers
         */
         
         // question 23
+        /*
         TimeCalculator timeCalc = new TimeCalculator();
-        //timeCalc.setDays();
         timeCalc.convertDays();
+        */
+       
+       // question 25
+       FractionCalculator fractionAnswer = new FractionCalculator();
     }
 }
