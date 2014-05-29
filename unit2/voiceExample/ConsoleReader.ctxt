@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=inStream
+comment0.target=ConsoleReader(java.io.InputStream)
+comment1.params=
+comment1.target=java.lang.String\ readLine()
+comment2.params=
+comment2.target=int\ readInt()
+comment3.params=
+comment3.target=double\ readDouble()
+numComments=4
