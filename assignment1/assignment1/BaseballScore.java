@@ -2,6 +2,30 @@
 /**
  * Question 13
  * 
+ * 13.	Write a program that reads the scores of nine innings
+ * of a baseball game between two teams from console and decides
+ * the winner. How would you extend the program to compute the
+ * winners of N number of games between the two teams?
+ * (No need to write a complete program for the extension part.)
+ * 
+ * To compute the winners of N number of games between the two teams
+ * Create a class called BaseballSeries that contains an array of
+ * BaseballScore instances. You would change the return value of
+ * isWinner method to something more readable programmatically like
+ * 0 for team A
+ * 1 for team B
+ * 2 for tie
+ * 
+ * Then you would count the number of 0 and 1 in the array and compare them
+ * to see who won
+ * 
+ * 
+ * 
+ * 
+ * This class takes in a input from the console (csv, no spaces) and
+ * outputs text displaying of which team won the game. The input must
+ * be 9 innings
+ * 
  * @author Zachary Levy
  * @version 20140528
  */

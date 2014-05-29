@@ -23,5 +23,6 @@ public class answers
         BaseballScore worldSeriesFinal = new BaseballScore();
         worldSeriesFinal.setScores();
         System.out.println("And the World Series result is... " + worldSeriesFinal.isWinner());
+        
     }
 }
