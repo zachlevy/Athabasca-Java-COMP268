@@ -33,7 +33,12 @@ public class answers
         timeCalc.convertDays();
         */
        
+       // question 24
+       CurrencyConverter convert = new CurrencyConverter();
+       
        // question 25
+       /*
        FractionCalculator fractionAnswer = new FractionCalculator();
+       */
     }
 }

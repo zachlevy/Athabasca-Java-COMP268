@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CurrencyConverter()
+comment1.params=
+comment1.target=void\ getCurrency()
+comment2.params=startCur\ amount
+comment2.target=double\ convertCurrency(int,\ double)
+numComments=3
