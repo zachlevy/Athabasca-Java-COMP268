@@ -50,7 +50,12 @@ public class WhileLoops
     }
     
     public void hasEscaped () {
-        System.out.println("The prisoner escaped.");
+        if (prisonerEscaped) {
+            System.out.println("The prisoner has escaped.");
+        } else {
+            System.out.println("The prisoner has not escaped.");
+        }
+        
     }
     
     private void soundAlarm () {
