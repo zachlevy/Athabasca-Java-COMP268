@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=escaped
+comment0.target=WhileLoops(boolean)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ WhileLoops\n
+comment1.params=shiftHours
+comment1.target=void\ guardDutyWhile(int)
+comment2.params=shiftHours
+comment2.target=void\ guardDutyDoWhile(int)
+comment3.params=
+comment3.target=void\ hasEscaped()
+comment4.params=
+comment4.target=void\ soundAlarm()
+numComments=5
