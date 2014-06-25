@@ -1,18 +1,26 @@
 
 /**
- * Write a description of class answers here.
+ * This class contains all the code to test the classes. Each question
+ * has its own class. The class description contains while question it
+ * answers.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Zachary Levy
+ * @version 20140623
  */
 public class answers
 {
     public static void main(String[] args) {
         System.out.println("Starting test\n");
         
+        
+        // question 11
+        
+        GreatestCommonDenominator commonDenom = new GreatestCommonDenominator(24,48,128);
+        commonDenom.findGCD();
+        
         // question 10
         // officer gets guard duty in last hour of shift
-        
+        /*
         WhileLoops prisonShift = new WhileLoops(true);
         prisonShift.hasEscaped();
         
@@ -24,7 +32,7 @@ public class answers
 
         // alarm doesn't go off, shows strength of while loop in this scenario
         prisonShift.guardDutyDoWhile(1); // alarm goes off
-        
+        */
         
         // question 12
         /*
