@@ -12,8 +12,17 @@ public class answers
     public static void main(String[] args) {
         System.out.println("Starting test\n");
         
-        // question 9
+        // question 3
+        /*
+        PlayingWithStrings playTime = new PlayingWithStrings("apple", "pirate ship");
+        playTime.getLength();
+        playTime.beheadString();
+        playTime.scream();
+        playTime.getMarried();
+        */
         
+        // question 9
+        /*
         LostAndFound searchParty = new LostAndFound(8);
         
         // correct solution, breaks off the search once all the souls have been found
@@ -21,7 +30,7 @@ public class answers
         
         // incorrect solution, continues searching for souls after they've all been found
         searchParty.searchAndRescueContinue();
-        
+        */
         
         // question 11
         /*

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=startStringOne\ startStringTwo
+comment0.target=PlayingWithStrings(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ PlayingWithStrings\n
+comment1.params=
+comment1.target=int\ getLength()
+comment2.params=
+comment2.target=java.lang.String\ beheadString()
+comment3.params=
+comment3.target=java.lang.String\ scream()
+comment4.params=
+comment4.target=void\ getMarried()
+numComments=5
