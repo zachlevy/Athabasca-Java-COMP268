@@ -12,11 +12,22 @@ public class answers
     public static void main(String[] args) {
         System.out.println("Starting test\n");
         
+        // question 9
+        
+        LostAndFound searchParty = new LostAndFound(8);
+        
+        // correct solution, breaks off the search once all the souls have been found
+        searchParty.searchAndRescueBreak();
+        
+        // incorrect solution, continues searching for souls after they've all been found
+        searchParty.searchAndRescueContinue();
+        
         
         // question 11
-        
+        /*
         GreatestCommonDenominator commonDenom = new GreatestCommonDenominator(24,48,128);
         commonDenom.findGCD();
+        */
         
         // question 10
         // officer gets guard duty in last hour of shift
