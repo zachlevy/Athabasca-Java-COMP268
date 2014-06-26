@@ -64,7 +64,7 @@ public class WhileLoops
     
     // check if the prisoner has escaped
     // returns true/false for programmatic use
-    public void hasEscaped () {
+    public boolean hasEscaped () {
         if (prisonerEscaped) {
             System.out.println("The prisoner has escaped.");
             return true;

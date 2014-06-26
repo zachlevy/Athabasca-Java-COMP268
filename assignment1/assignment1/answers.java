@@ -4,13 +4,17 @@
  * has its own class. The class description contains while question it
  * answers.
  * 
+ * Uncomment each question to see the class' functionality
+ * 
  * @author Zachary Levy
  * @version 20140623
+ * 
  */
 public class answers
 {
     public static void main(String[] args) {
         System.out.println("Starting test\n");
+        System.out.println("Uncomment questions to see their functionality\n");
         
         // question 3
         /*
