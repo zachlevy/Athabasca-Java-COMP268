@@ -1,18 +1,23 @@
 
 /**
- * Question 12
+ * 12. Write a program to determine if an input string is a palindrome.
  * 
  * @author Zachary Levy
  * @version 20140528
+ * 
+ * Takes in a string as input when creating an instance of the class.
+ * Also can take in a string after the object is created to check that way.
+ * returns whether a string is a palindrome or not both programatically and prints teh result also.
+ * 
  */
-import java.util.Scanner;
+import java.util.Scanner; // import the console input library
 
 public class Palindrome
 {
     // instance variables - replace the example below with your own
-    private String forwards;
-    private String backwards;
-    Scanner in = new Scanner(System.in);
+    private String forwards; // string forwards
+    private String backwards; // string backwards
+    Scanner in = new Scanner(System.in); // create new input object for console
     /**
      * Constructor for objects of class Palindrome
      */

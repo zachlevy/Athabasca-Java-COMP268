@@ -7,34 +7,40 @@
  * 
  * @author Zachary Levy
  * @version 20140528
+ * 
+ * The user is prompted via the console to enter a number of days
+ * The convertDays function translates this to hours, minutes, and seconds, then prints to the console
+ * 
  */
-import java.util.Scanner;
+import java.util.Scanner; // import library for console inpit
 public class TimeCalculator
 {
     // instance variables - replace the example below with your own
-    private int days;
-    private String daysString;
+    private String daysString; // days variable capturing console input
+    private int days; // days variable as an integer so we can do math with it
     
-    Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in); // create a console input object
 
     /**
      * Constructor for objects of class TimeCalculator
      */
     public TimeCalculator()
     {
-        setDays();
+        setDays(); // call console propmt when you create an instance of the class
         // initialise instance variables
     }
     
     
     // sets the number of days from console input
+    // returns nothing
     public void setDays () {
         System.out.println("Please enter the number of days you would like to convert: ");
-        daysString = in.nextLine();
-        days = Integer.parseInt(daysString);
+        daysString = in.nextLine(); // capture string from console
+        days = Integer.parseInt(daysString); // convert string to integer so we can do math
     }
 
     // converts the days to hours, minutes, and seconds. setDays method needs to be called before this.
+    // returns nothing
     public void convertDays () {
         // 24 hours in a day
         // 1440 minutes in a day
