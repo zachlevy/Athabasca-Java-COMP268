@@ -1,0 +1,9 @@
+Hi Zachary,
+
+Thank you for the work. All programs work very well, and your inline comments in the source files are excellent! Please be 
+noted that we'll need test plans to verify the correctness of a program. In your case, we'll need test plans for q11, q12, q23, q24, and q25. A test plan usually cover normal, abnormal, and (optional) boundary test cases. For example, to test q12 we also need to test empty input and single character input. For q23 and q24, we need to test options other than required in the program.
+
+In q3, what is the structure of a java program?
+
+You did very well; any question please feel free to email me.
+Steve
