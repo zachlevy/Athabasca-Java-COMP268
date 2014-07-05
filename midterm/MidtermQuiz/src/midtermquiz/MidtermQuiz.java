@@ -32,8 +32,9 @@ public class MidtermQuiz {
         // the integer i is declared but not assigned a value
         
         // question 3
-        
-        
+        /*
+        ResearchSurvey newsMagazineSurvey = new ResearchSurvey();
+        */
         
         
         
