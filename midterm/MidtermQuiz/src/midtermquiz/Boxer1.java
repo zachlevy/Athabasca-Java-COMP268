@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * question 2
  */
 
 package midtermquiz;
@@ -15,6 +13,7 @@ public class Boxer1 {
     Integer i;
     int x;
     public Boxer1(int y) {
+        i = 4; // added not as part of the problem
         x=i+y;
         System.out.println(x);
     }
