@@ -1,2 +1,5 @@
 
 *.zip
+/midterm/MidtermQuiz/nbproject/private/
+/midterm/MidtermQuiz/build/
+/midterm/MidtermQuiz/dist/
