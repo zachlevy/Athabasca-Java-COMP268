@@ -20,12 +20,21 @@ public class MidtermQuiz {
         // TODO code application logic here
         
         // question 1
-        
+        /*
+        SubstringCheck insideMan = new SubstringCheck();
+        */
         
         // question 2
+        /*
         Boxer1 boxerTestRun = new Boxer1(1);
+        */
         // the answer is D) the a null pointer exception occurs at runtime because
         // the integer i is declared but not assigned a value
+        
+        // question 3
+        
+        
+        
         
         
     }
