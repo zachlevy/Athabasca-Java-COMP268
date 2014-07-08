@@ -6,6 +6,8 @@
 
 package midtermquiz;
 
+import java.io.IOException;
+
 /**
  *
  * @author zacharylevy
@@ -16,7 +18,7 @@ public class MidtermQuiz {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
         
         // question 1
@@ -36,8 +38,13 @@ public class MidtermQuiz {
         ResearchSurvey newsMagazineSurvey = new ResearchSurvey();
         */
         
-        
-        
+        // question 4
+        // written answer in attached Midterm Written Answers.pdf
+        /*
+        Buffers buffersExample = new Buffers("buffer_input.txt");
+        buffersExample.unbufferedCopy();
+        buffersExample.bufferedCopy();
+        */
     }
     
 }
