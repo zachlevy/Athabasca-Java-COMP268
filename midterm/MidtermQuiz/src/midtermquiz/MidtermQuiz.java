@@ -21,6 +21,8 @@ public class MidtermQuiz {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         
+        System.out.println("Uncomment answers in MidtermQuiz.java, written answers in .pdf file called \"Midterm Written Answers.pdf\"");
+        
         // question 1
         /*
         SubstringCheck insideMan = new SubstringCheck();
@@ -38,7 +40,7 @@ public class MidtermQuiz {
         ResearchSurvey newsMagazineSurvey = new ResearchSurvey();
         */
         
-        // question 5
+        // question 5 (written) and question 18 (written)
         // written answer in attached Midterm Written Answers.pdf
         /*
         Buffers buffersExample = new Buffers("input.txt");
