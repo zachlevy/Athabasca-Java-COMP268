@@ -52,6 +52,11 @@ public class MidtermQuiz {
         Triangle greatPyramid = new Triangle(5);
         */
         
+        // question 16
+        /*
+        OptimusNonPrime primer = new OptimusNonPrime(30);
+        */
+        
         
     }
     
