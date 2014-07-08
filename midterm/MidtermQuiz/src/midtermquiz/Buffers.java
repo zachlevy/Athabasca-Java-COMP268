@@ -43,6 +43,8 @@ public class Buffers {
         
     }
     
+    // example of an unbuffered copy of a file called input.txt
+    // the input.txt file is in the project root dir
     public void unbufferedCopy () throws FileNotFoundException, IOException {
         // filereader is unbuffered
         FileInputStream input = new FileInputStream(fromFileName);
@@ -60,6 +62,8 @@ public class Buffers {
         }
     }
     
+    // example of a buffered copy of a file called input.txt
+    // the input.txt file is in the project root dir
     public void bufferedCopy () throws FileNotFoundException, IOException {
         try {
             // filereader is unbuffered, BufferedReader makes it buffered

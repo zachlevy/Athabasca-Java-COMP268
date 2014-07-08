@@ -41,7 +41,7 @@ public class MidtermQuiz {
         // question 4
         // written answer in attached Midterm Written Answers.pdf
         /*
-        Buffers buffersExample = new Buffers("buffer_input.txt");
+        Buffers buffersExample = new Buffers("input.txt");
         buffersExample.unbufferedCopy();
         buffersExample.bufferedCopy();
         */
