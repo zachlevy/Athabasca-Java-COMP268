@@ -38,13 +38,21 @@ public class MidtermQuiz {
         ResearchSurvey newsMagazineSurvey = new ResearchSurvey();
         */
         
-        // question 4
+        // question 5
         // written answer in attached Midterm Written Answers.pdf
         /*
         Buffers buffersExample = new Buffers("input.txt");
         buffersExample.unbufferedCopy();
         buffersExample.bufferedCopy();
         */
+        
+        // question 13
+        /*
+        Triangle smallPyramid = new Triangle(3);
+        Triangle greatPyramid = new Triangle(5);
+        */
+        
+        
     }
     
 }
