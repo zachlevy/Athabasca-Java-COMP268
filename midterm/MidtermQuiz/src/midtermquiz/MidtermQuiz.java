@@ -52,6 +52,11 @@ public class MidtermQuiz {
         Triangle greatPyramid = new Triangle(5);
         */
         
+        // question 14
+        /*
+        CoinCounter britishFannyPack = new CoinCounter();
+        */
+        
         // question 16
         /*
         OptimusNonPrime primer = new OptimusNonPrime(30);
@@ -70,6 +75,8 @@ public class MidtermQuiz {
         can.cylinderVolume();
         can.cylinderSurfaceArea();
         */
+        
+        
     }
     
 }
