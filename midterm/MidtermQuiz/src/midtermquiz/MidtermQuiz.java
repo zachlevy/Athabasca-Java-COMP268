@@ -57,7 +57,11 @@ public class MidtermQuiz {
         OptimusNonPrime primer = new OptimusNonPrime(30);
         */
         
-        
+        // question 17
+        /*
+        Lockers middleSchool = new Lockers(10);
+        Lockers highschool = new Lockers(100);
+        */
     }
     
 }
