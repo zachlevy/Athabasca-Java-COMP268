@@ -62,6 +62,14 @@ public class MidtermQuiz {
         Lockers middleSchool = new Lockers(10);
         Lockers highschool = new Lockers(100);
         */
+        
+        // question 26
+        /*
+        Circle canLid = new Circle(10);
+        Cyclinder can = new Cyclinder(canLid, 100);
+        can.cylinderVolume();
+        can.cylinderSurfaceArea();
+        */
     }
     
 }
