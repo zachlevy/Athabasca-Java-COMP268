@@ -1,0 +1,13 @@
+submission_feedback.txt
+
+
+Hi Zachary,
+
+Thank you for the work. Your programs work well with good inline comments and documentation. However I still cannot find any test plan related to the programs. In particular, test plans are required for Substring, Research Survey, Triangle, Prime Numbers, Lockers, Cylinder, and Coin Counter. Also, the exercise Prime Number asks to store **non-prime** numbers in the linked-listed, not to store prime numbers.
+
+I found an empty class Electric Car in the assignment. Since you already have 10 other exercises, I discard the Electric Car.
+
+You did well, however, please include test plans in the next assignment.
+
+Thanks,
+Steve
