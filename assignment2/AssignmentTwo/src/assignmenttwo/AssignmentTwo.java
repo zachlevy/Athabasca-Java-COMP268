@@ -65,6 +65,11 @@ public class AssignmentTwo {
         /*
         SentenceVector fox = new SentenceVector("The quick brown fox jumps over the lazy dog");
         */
+        
+        // question 12
+        /*
+        ReverseParagraph story = new ReverseParagraph();
+        */
     }
     
 }
