@@ -25,13 +25,17 @@ public class ReverseString {
         reverseString();
     }
     
-    
+    // reverse the string letter by letter
+    // prints and returns backwards string
     public String reverseString() {
+        // convert string to array of letters
         for (char letter : forwards.toCharArray()) {
+            // add each letter to the stack
             holder.push(letter);
         }
-        
+        // loop through the stack
         while (holder.size() > 0) {
+            // add each letter to the backwardfs string
             backwards += holder.pop();
         }
         System.out.println(forwards + " backwards is: " + backwards);

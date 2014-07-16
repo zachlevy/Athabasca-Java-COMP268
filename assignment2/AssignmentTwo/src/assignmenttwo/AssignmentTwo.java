@@ -60,6 +60,11 @@ public class AssignmentTwo {
         /*
         ReverseString firetruck = new ReverseString("firetruck");
         */
+        
+        // question 11
+        /*
+        SentenceVector fox = new SentenceVector("The quick brown fox jumps over the lazy dog");
+        */
     }
     
 }
