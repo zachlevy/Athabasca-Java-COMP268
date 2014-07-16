@@ -48,11 +48,18 @@ public class AssignmentTwo {
         */
         
         // question 7
+        /*
         BuildingDirectory officeBuilding = new BuildingDirectory();
         // get the companies
         officeBuilding.getCompanies();
         // find the room number of a specific company
         officeBuilding.getOffice("Facebook");
+        */
+        
+        // question 10
+        /*
+        ReverseString firetruck = new ReverseString("firetruck");
+        */
     }
     
 }
