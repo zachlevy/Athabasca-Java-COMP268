@@ -41,9 +41,11 @@ public class BuildingDirectory {
     public void getCompanies() {
         System.out.print("Directory: ");
         
-        // enumerate the keys of the hashtable
+        // ENUMERATE the keys of the hashtable
         Enumeration<String> directoryKeys = directory.keys();
-        while (directoryKeys.hasMoreElements()) {            
+        // while the hashtable has more keys
+        while (directoryKeys.hasMoreElements()) {
+            // use the enumeration method nextElement to get the next key in the hashtable
             String company = directoryKeys.nextElement();
             Integer room = directory.get(company);
             if (directoryKeys.hasMoreElements()) {
