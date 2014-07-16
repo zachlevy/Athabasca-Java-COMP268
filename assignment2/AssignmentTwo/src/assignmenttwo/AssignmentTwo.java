@@ -16,6 +16,7 @@ public class AssignmentTwo {
     // constructor
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Uncomment answers in AssignmentTwo.java");
         
         // question 4
         /*
@@ -69,6 +70,11 @@ public class AssignmentTwo {
         // question 12
         /*
         ReverseParagraph story = new ReverseParagraph();
+        */
+        
+        // question 13
+        /*
+        VectorNumbers primeVectors = new VectorNumbers();
         */
     }
     
