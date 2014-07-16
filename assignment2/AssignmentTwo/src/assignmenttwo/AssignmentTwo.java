@@ -33,6 +33,21 @@ public class AssignmentTwo {
         */
         
         // question 5
+        /*
+        MyStack jenga = new MyStack();
+        // shows the starter stack
+        jenga.getStack();
+        // adds the element to the end of the stack
+        jenga.push(0);
+        // shows the new stack
+        jenga.getStack();
+        // gets the ending element in the stack
+        jenga.pop();
+        // shows teh starter stack
+        jenga.getStack();
+        */
+        
+        
     }
     
 }
