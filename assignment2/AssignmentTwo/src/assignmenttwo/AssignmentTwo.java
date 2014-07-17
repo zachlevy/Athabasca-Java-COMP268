@@ -81,9 +81,9 @@ public class AssignmentTwo {
         */
         
         // question 13
-        /*
+        
         VectorNumbers primeVectors = new VectorNumbers();
-        */
+        
         
         // question 25
         /*

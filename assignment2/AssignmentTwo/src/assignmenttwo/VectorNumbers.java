@@ -43,10 +43,10 @@ public class VectorNumbers {
                             primeStorage.add(number);
                         }
                     } else {
-                        System.out.println("You entered a number < 1. Enter a Number > 0");
+                        System.out.println("You entered a integer < 1. Enter a integer > 0");
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("You have not entered a number. Enter a Number > 0");
+                    System.out.println("You have not entered a integer. Enter a integer > 0");
                 }
             }
         } while (!end);
