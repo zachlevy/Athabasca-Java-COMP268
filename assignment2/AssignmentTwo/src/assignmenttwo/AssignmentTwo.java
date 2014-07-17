@@ -76,6 +76,12 @@ public class AssignmentTwo {
         /*
         VectorNumbers primeVectors = new VectorNumbers();
         */
+        
+        // question 25
+        /*
+        GetSetGo bandLineup = new GetSetGo();
+        bandLineup.printSet();
+        */
     }
     
 }
