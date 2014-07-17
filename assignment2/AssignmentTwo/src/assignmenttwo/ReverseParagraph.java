@@ -34,9 +34,11 @@ public class ReverseParagraph {
             // if its an empty line
             if (input.equals("")) {
                 end = true;
-            } else {    
+            } else if (!input.contains(".")) {
                 // add input string to the paragraph holder arraylist
                 paragraphHolder.add(input);
+            } else {
+                System.out.println("Enter a real paragraph with a \".\"");
             }
         } while (!end);
         backwards = "";

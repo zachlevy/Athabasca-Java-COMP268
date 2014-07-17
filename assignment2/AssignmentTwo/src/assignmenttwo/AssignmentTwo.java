@@ -76,14 +76,14 @@ public class AssignmentTwo {
         */
         
         // question 12
-        /*
+        
         ReverseParagraph story = new ReverseParagraph();
-        */
+        
         
         // question 13
-        
+        /*
         VectorNumbers primeVectors = new VectorNumbers();
-        
+        */
         
         // question 25
         /*
