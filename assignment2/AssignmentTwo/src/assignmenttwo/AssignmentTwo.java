@@ -4,6 +4,8 @@
 
 package assignmenttwo;
 
+import java.io.IOException;
+
 /**
  *
  * @author zacharylevy
@@ -14,9 +16,15 @@ public class AssignmentTwo {
 
     
     // constructor
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
         System.out.println("Uncomment answers in AssignmentTwo.java");
+        
+        // question 1
+        /*
+        FileIO xerox = new FileIO("input.txt");
+        xerox.bufferedCopy();
+        */
         
         // question 4
         /*
