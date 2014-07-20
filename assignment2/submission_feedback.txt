@@ -1,0 +1,11 @@
+Hi Zachary,
+
+Thank you for the work. Your programs work fine and your inline comments make the codes very readable. However, I still cannot find any test plan. You mentioned that according to a forum discussion, no test plan is required when no console input is required. It is not what Wayne said. He mentioned in the last post that "if the input is given and built in then it would seem reasonable to me also to specify what the correct output should be and, failing that, one should have to note what independent method was used to check the results". You still need to provide the correct output. Also, your test plans for programs that require console input are not exactly what we'll consider as test plan. Indeed they looks like a rewording of the requirement. A test plan should have several test cases which include input and output to support the 
+correctness of the programs. The more complex a program is, the more test cases are required.
+
+Hope it clarifies the concern. Please let me know if you have more questions.
+
+Steve
+
+
+Grade: 86.00 / 100.00
