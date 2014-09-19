@@ -1,0 +1,9 @@
+because == compares primitive types
+
+String is a class, and has its own comparison method
+
+.equals() compares strings consistently
+there are some excpeptions like
+"string" == "string" returns true because the "string" is cached in the java runtime, but new String("string") == "string" is false
+
+

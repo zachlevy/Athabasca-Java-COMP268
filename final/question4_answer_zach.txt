@@ -1,0 +1,27 @@
+classes
+
+
+
+base class is bicycle
+	// variables that all bikes have
+	int frame height;
+	int gears;
+
+subclasses for mountainbike, roadbike, bmx
+	mountainbike
+		// variables that only mountain bikes have
+		Boolean frontShocks;
+		Boolean backShocks;
+
+	roadbike
+		// vars that roadbike have
+		Boolean curvyHandlebars;
+
+	bmx
+		// vars that bmx has
+		int radicalFactor;
+
+		public performTrick (String trickName) {
+
+		}
+

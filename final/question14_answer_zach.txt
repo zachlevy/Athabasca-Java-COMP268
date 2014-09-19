@@ -1,0 +1,3 @@
+recursion is when you call a function  inside of itself.
+
+It's different from loops because it is always called at least once, similar to a do-while loop.

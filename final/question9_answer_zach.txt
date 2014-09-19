@@ -1,0 +1,7 @@
+Listen for an event, then run a function onchange
+
+the function could contain for example
+function {
+	Object object = new Object();
+	Object.doSomething();
+}

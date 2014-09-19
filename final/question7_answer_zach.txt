@@ -1,0 +1,8 @@
+sample
+
+studentId
+universityId
+departmentId
+courseId
+mark
+

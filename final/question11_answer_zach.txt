@@ -1,0 +1,3 @@
+yes, through javascript. They can send data back and forth by javascript receiving the data from one applet and sending it to another.
+
+

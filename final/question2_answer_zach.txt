@@ -1,0 +1,20 @@
+public class SubstringFinder {
+	smallString = String[];
+	bigString = String[];
+
+	public SubstringFinder (String[] startSmallString, String[] bigstring) {
+		smallString = startSmallString;
+		bigString = startBigString;
+		if (bigString.contains(smallString)) {
+			System.out.println("Found it");
+		} else {
+			System.out.println("Not Found");
+		}
+
+	}
+
+	public static void main(String[] args) {
+		SubstringFinder rapper = new SubstringFinder("small", "biggiesmalls");
+
+	}
+}

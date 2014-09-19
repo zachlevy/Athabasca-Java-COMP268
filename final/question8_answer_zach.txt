@@ -1,0 +1,11 @@
+
+
+object streams
+	stream any type of object
+	object streams are less efficient
+
+
+data streams
+	stream primitive types, and also Strings
+
+

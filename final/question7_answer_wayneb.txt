@@ -1,0 +1,52 @@
+question7_answer_wayneb.txt
+
+7. [10 marks] A news magazine wants to conduct a survey across the four research universities in 
+Alberta. For each university, the magazine wants to gather the number of departments, the number 
+of students doing research in each department, courses taken by each research student, and marks 
+scored by these students in courses. Design and develop a Class to capture this information. 
+Does anyone have any ideas on how to approach this? You would need a multi-dimensional array to capture this info: Univ[dept][student][course][mark] but this is not convenient. Would nested classes work? I'm trying to get a sense of what a good answer would include here...
+
+
+
+
+In OOP you should seldom think "multi-dimensional array!" unless it's a problem in theoretical physics or math. Instead, think "Objects with components or properties classified into classes--perhaps with an array of such objects."
+
+Here, the "main" object seems to be a University, each of which probably has a name, and some departments, and some research students, and some courses, and some marks.
+
+You need to decide, based on the questions asked--or that you might need to answer--which of these other things should be clases and which could be just properties (data fields?) for a University or for one of its component classes.
+
+One main thing to keep clear is that just because "a University has some departments" doesn't make the departments "subclasses" of universities--they are just "components", so would be represented by fields that are of "type" Department.
+
+If the University needs to be able to report "the number of departments" it has, then you might at first think you could just have that be an integer field, but then it neds to be able to report "the number of students doing research in each department" so you might need an aray or list of Departments, each of which has an integer field with the number of students. And so on--each "refinement" of your model will probably lead to defining some new class of objects that has some fields, or an array or list of objects of some class as compponents of another class. You could also approach this by drawing a diagram--possibly a hierarchical one:
+
+ --- University ---- Department ---- Student ---- Course [int mark]
+ |              |               |            |
+ |              |               |            ...
+ |              |               |--- Student ...
+ |              |               |
+ |              |               ...
+ |              |
+ |              |--- Department ...
+ |              |
+ |              ...
+ |
+ |-- University ---- Department ---- Student ---- Course  [int mark]
+ |              |               |            |
+ |              |               |
+ |              |               |--- Student ...
+ |              |               |
+ |              |               ...
+ |              |
+ |              |--- Department ...
+ |              |
+ |              ...
+ |
+  ...
+
+In this model, it looks like you'd need classes University, Department, Student, and Course--and each course object would have an int instance field mark.
+
+And each Student would have an array or list of Courses--and perhaps an int field for number of courses, though instead one could always count the number of elements in the list or get the length of the array when needed.
+
+And each Department would have an array or list of Students--and perhaps an int field for number of students, though instead one could always count the number of elements in the list or get the length of the array when needed.
+
+ And each University would have ...

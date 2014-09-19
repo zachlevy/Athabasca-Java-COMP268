@@ -1,0 +1,9 @@
+a wrapper class is a class surrounding a primitive datatype
+
+for example
+	int = 5;
+	Integer = 5;
+
+Integer is a class that has extra functions built into it.
+
+Integer class can be used in other classes that require an object rather than a primitive type. Think for example, a Hashset.

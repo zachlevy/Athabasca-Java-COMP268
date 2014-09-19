@@ -1,0 +1,2 @@
+The first time an applet runs, Java must compile the applet on the JVM and cache it, including assets.
+

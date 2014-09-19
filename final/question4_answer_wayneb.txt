@@ -1,0 +1,13 @@
+On Wednesday, 18 December 2013, 12:36 PM MST Wenwan Yang  wrote:
+
+> 4. How would you implement an algorithm using Classes, Objects, Hierarchy, Classes, Variables, and Instance Variables
+
+First, note that there are two occurrences of "Classes," so the second was almosty certainly meant to be part of "Class Variables" instead, in contrast to the following "Instance Variables".
+
+> I don't know what this question is asking and I don't know how to answer it.
+
+Here's my best guess:
+
+It appears to be asking you to describe in general terms how you'd decide what classes of objects you might need to describe the things in the problem you're solving, how you would decide what objects (instances of each class) you might need, how some classes could be declared as subclasses of other "base" classes to form a hierarchy of classes, which variables should be fields of the class (class variables) and which should be different for each instance or "object" of the class that you create (instance variables).
+
+If you find this hard to do in general terms, use an example to illustrate it and that might help--even bicycles and their relatives if you must...
